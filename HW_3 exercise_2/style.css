@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.line-1, .line-2, .line-3, .line-4, .line-5, .line-6{
+	display: flex;
+	align-items: center;
+}
+
+#lin1, #lin5, #lin9{
+	display: flex;
+	flex-direction: column;
+	color: gray;
+	font-size: 10px;
+	text-align: right;
+}
+
+#lin2, #lin6, #lin10{
+	width: 350px;
+	background-color: #FFB6C1;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 15px 15px 15px 0;
+}
+
+#lin3, #lin7, #lin11{
+	width: 350px;
+	background-color: #ADD8E6;
+	padding: 10px;
+	border-radius: 15px 15px 0 15px;
+	margin-left: 300px;
+}
+
+#lin4, #lin8, #lin12{
+	display: flex;
+	flex-direction: column;
+	color: gray;
+	font-size: 10px;
+	text-align: left;
+}
+
+span{
+
+	color: black;
+	font-size: 15px;
+}
